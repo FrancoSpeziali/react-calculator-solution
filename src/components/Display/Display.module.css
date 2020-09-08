@@ -1,0 +1,7 @@
+.container {
+    grid-column: 1/4;
+    text-align: right;
+    border: 2px solid fuchsia;
+    background: black;
+    color: white;
+}
