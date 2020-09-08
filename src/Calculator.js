@@ -46,24 +46,24 @@ export default function Calculator() {
     return (
         <div className={cssStyles.container}>
             <Display content={currentNumber} />
-            <SpecialButton calculatorKey='AC' handleClick={allClear} />
+            <SpecialButton calculatorKey='AC' onClick={allClear} />
             <SpecialButton calculatorKey='+/-' />
             <SpecialButton calculatorKey='%' />
-            <OperationalButton calculatorKey='/' handleClick={handleOperationalInput} />
-            <OperationalButton calculatorKey='*' handleClick={handleOperationalInput} />
-            <OperationalButton calculatorKey='-' handleClick={handleOperationalInput} />
-            <OperationalButton calculatorKey='+' handleClick={handleOperationalInput} />
-            <OperationalButton calculatorKey='=' handleClick={handleOperationalInput} />
-            <NumberButton calculatorKey='9' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='8' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='7' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='6' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='5' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='4' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='3' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='2' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='1' handleClick={handleNumberInput} />
-            <NumberButton calculatorKey='0' handleClick={handleNumberInput} />
+            <OperationalButton calculatorKey='/' onClick={handleOperationalInput} />
+            <OperationalButton calculatorKey='*' onClick={handleOperationalInput} />
+            <OperationalButton calculatorKey='-' onClick={handleOperationalInput} />
+            <OperationalButton calculatorKey='+' onClick={handleOperationalInput} />
+            <OperationalButton calculatorKey='=' onClick={handleOperationalInput} />
+            <NumberButton calculatorKey='9' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='8' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='7' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='6' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='5' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='4' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='3' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='2' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='1' onClick={handleNumberInput} />
+            <NumberButton calculatorKey='0' onClick={handleNumberInput} />
         </div>
     );
 }

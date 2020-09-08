@@ -4,7 +4,7 @@ import styles from './NumberButton.module.css';
 export default function NumberButton(props) {
 
     const handleClick = () => {
-        props.handleClick(props.calculatorKey);
+        props.onClick(props.calculatorKey);
     }
 
     return (

@@ -4,7 +4,7 @@ import styles from './OperationalButton.module.css';
 export default function OperationalButton(props) {
 
     const handleClick = () => {
-        props.handleClick(props.calculatorKey);
+        props.onClick(props.calculatorKey);
     }
 
     return (

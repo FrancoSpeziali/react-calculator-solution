@@ -3,7 +3,7 @@ import styles from './SpecialButton.module.css';
 
 export default function SpecialButton(props) {
     return (
-        <button onClick={props.handleClick} className={styles.button}>
+        <button onClick={props.onClick} className={styles.button}>
             {props.calculatorKey}
         </button>
     );
